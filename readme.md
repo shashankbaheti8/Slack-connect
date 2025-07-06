@@ -1,15 +1,3 @@
-Great work getting everything deployed! Here's a complete and professional-quality `README.md` that satisfies all deliverables, with well-organized sections for:
-
-* Setup instructions (local and live)
-* Architecture (OAuth, token handling, cron scheduler)
-* Deployment (Vercel & Render)
-* Challenges & learnings
-
----
-
-## ✅ Your `README.md`
-
-````md
 # Slack Connect – Schedule and Send Messages
 
 A full-stack web app that connects to multiple Slack workspaces via OAuth and allows users to send or schedule Slack messages. Built with **React + Vite + TailwindCSS** on the frontend and **Node.js + TypeScript + Express** on the backend. MongoDB is used to store Slack credentials and scheduled messages.
