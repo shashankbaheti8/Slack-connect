@@ -50,7 +50,7 @@ A full-stack web app that connects to multiple Slack workspaces via OAuth and al
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/slack-connect.git
+git clone https://github.com/shashankbaheti8/slack-connect.git
 cd slack-connect
 ````
 
@@ -84,7 +84,6 @@ Install the app to your workspace.
 
 ```bash
 cd backend
-cp .env.example .env
 # Then fill in your Slack and Mongo credentials in `.env`
 
 npm install
@@ -107,8 +106,7 @@ MONGODB_URI=mongodb+srv://...
 
 ```bash
 cd ../frontend
-cp .env.example .env
-# Then set the backend base URL
+# Then set the backend base URL in .env
 
 npm install
 npm run dev
